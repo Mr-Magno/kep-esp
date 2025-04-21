@@ -1,0 +1,1 @@
+; mart inventories are now in the scripts file for the respective mart to save space - Ema

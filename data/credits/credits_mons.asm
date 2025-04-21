@@ -1,0 +1,22 @@
+CreditsMons:
+; one entry per CRED_TEXT_MON or CRED_TEXT_FADE_MON in CreditsOrder
+	db ONIX
+	db STARMIE
+	db GOROCHU
+	db BELLOSSOM
+	db CROBAT
+	db ALAKAZAM
+	db MAGMORTAR
+	db RHYPERIOR
+	db LAPRAS
+	db MACHAMP
+	db GENGAR
+	db DRAGONITE
+	db VENUSAUR
+	db CHARIZARD
+	db TOTARTLE
+	db UMBREON
+	db OMEGADGE
+	db ARTICUNO_G
+	db ZAPDOS_G
+	db MOLTRES_G

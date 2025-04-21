@@ -1,0 +1,25 @@
+MtMoonB1F_Object:
+	db $3 ; border block
+
+	def_warp_events
+	warp_event  7,  5, MT_MOON_1F, 3
+	warp_event 17, 11, MT_MOON_B2F, 1
+	warp_event 25,  9, MT_MOON_1F, 4
+	warp_event 25, 15, MT_MOON_1F, 5
+	warp_event 21, 17, MT_MOON_B2F, 2
+	warp_event 13, 27, MT_MOON_B2F, 3
+	warp_event 23,  3, MT_MOON_B2F, 4
+	warp_event 27,  3, ROUTE_4, 3
+	warp_event  1, 27, MT_MOON_B2F, 5
+	warp_event  1, 13, MT_MOON_SQUARE, 1
+	warp_event  1, 23, MT_MOON_SQUARE, 4
+	warp_event  1, 17, MT_MOON_1F, 6
+	warp_event  5, 27, MT_MOON_SQUARE, 2
+	warp_event  1,  3, MT_MOON_CRATER, 1
+	warp_event  1,  7, ROUTE_4, 4
+
+	def_bg_events
+
+	def_object_events
+
+	def_warps_to MT_MOON_B1F
